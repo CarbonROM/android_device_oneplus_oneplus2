@@ -20,13 +20,3 @@ $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Inherit oneplus2-specific vendor tree
 $(call inherit-product-if-exists, vendor/oneplus/oneplus2/oneplus2-vendor.mk)
-
-PRODUCT_NAME := carbon_oneplus2
-TARGET_VENDOR := oneplus
-TARGET_VENDOR_PRODUCT_NAME := oneplus2
-TARGET_VENDOR_DEVICE_NAME := A2001
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=oneplus2 \
-    PRODUCT_NAME=OnePlus2 \
-    BUILD_FINGERPRINT=OnePlus/OnePlus2/OnePlus2:5.1.1/LMY47V/1436933040:user/release-keys \
-    PRIVATE_BUILD_DESC="OnePlus2-user 5.1.1 LMY47V 28 dev-keys"
