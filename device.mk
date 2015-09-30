@@ -48,12 +48,10 @@ PRODUCT_PACKAGES += \
 
 # Qcom init scripts for /etc
 PRODUCT_PACKAGES += \
-    init.qcom.bt.sh \
-    init.qcom.fm.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.uicc.sh \
-    msm8994_hmp.sh \
-    msm8994_tune.sh
+   init.qcom.bt.sh \
+   init.qcom.fm.sh \
+   init.qcom.post_boot.sh \
+   init.qcom.uicc.sh
 
 # Permissions
 PRODUCT_COPY_FILES += \
