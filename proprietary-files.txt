@@ -374,8 +374,8 @@ etc/firmware/a420_pfp.fw
 etc/firmware/a420_pm4.fw
 
 # Keystore
-vendor/lib/hw/keystore.msm8994.so
-vendor/lib64/hw/keystore.msm8994.so
+-vendor/lib/hw/keystore.msm8994.so
+-vendor/lib64/hw/keystore.msm8994.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.msm8994.so
