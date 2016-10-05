@@ -310,6 +310,7 @@ PRODUCT_PACKAGES += \
     ipacm-diag \
     IPACM_cfg.xml \
     hostapd \
+    wifilogd \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
