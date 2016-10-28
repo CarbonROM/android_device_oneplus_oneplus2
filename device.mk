@@ -278,6 +278,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.media.treble_omx=false
 
+# Thermal HAL
+PRODUCT_PACKAGES += \
+    thermal.msm8994 \
+    android.hardware.thermal@1.0-impl
+
 #USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
