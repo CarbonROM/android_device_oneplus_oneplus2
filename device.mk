@@ -150,9 +150,10 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
 
-# Fingerprint sensor
+# Fingerprint Sensor
 PRODUCT_PACKAGES += \
-    fingerprintd
+    fingerprint.msm8994 \
+    android.hardware.biometrics.fingerprint@2.1-service
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
