@@ -258,6 +258,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.media.treble_omx=false
 
+#USB HAL
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service
+
 # USB
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
