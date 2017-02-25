@@ -328,6 +328,7 @@ vendor/lib/libOpenCL.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/libOpenCL.so
+vendor/lib64/libuiblur.so
 
 # Graphics firmware
 etc/firmware/a420_pfp.fw
