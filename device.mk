@@ -131,6 +131,9 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     android.hardware.graphics.allocator@2.0-service \
 
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.1-impl
+
 # Doze mode
 PRODUCT_PACKAGES += \
     OneplusDoze
