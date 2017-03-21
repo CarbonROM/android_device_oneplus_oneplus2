@@ -129,7 +129,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8994 \
     memtrack.msm8994 \
     liboverlay \
-    libtinyxml
+    libtinyxml \
+    android.hardware.graphics.allocator@2.0-service \
 
 # Doze mode
 PRODUCT_PACKAGES += \
@@ -290,3 +291,9 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+
+# Vendor Interface Manifest
+PRODUCT_COPY_FILES += \
+    device/oneplus/oneplus2/manifest.xml:vendor/manifest.xml
+
+
