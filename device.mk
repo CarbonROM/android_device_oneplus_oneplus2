@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbt-vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8994 \
