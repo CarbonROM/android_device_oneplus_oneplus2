@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
     libshim_camera \
     libshim_ims-camera \
     sensors.hal.tof \
-    Snap
+    SnapdragonCamera
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -122,6 +122,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8994 \
     liboverlay \
     libtinyxml
+
+# Doze
+PRODUCT_PACKAGES += \
+   OnePlusDoze
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.slimroms.doze.oneplus;
+package org.carbonrom.doze.oneplus;
 
 import android.app.ActionBar;
 import android.os.Bundle;
