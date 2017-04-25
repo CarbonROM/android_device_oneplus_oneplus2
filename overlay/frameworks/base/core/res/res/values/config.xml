@@ -422,4 +422,7 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
 
+   <!-- Enable blur -->
+   <bool name="config_uiBlurEnabled">true</bool>
+
 </resources>
