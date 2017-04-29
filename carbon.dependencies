@@ -16,5 +16,11 @@
    "repository" : "LineageOS/android_device_qcom_common",
    "target_path": "device/qcom/common",
    "revision"   : "cm-14.1"
+ },
+ {
+   "remote"     : "gh",
+   "repository" : "halogenOS/android_hardware_qcom_camera-op2",
+   "target_path": "hardware/qcom/camera-op2",
+   "revision"   : "XOS-7.1"
  }
 ]
