@@ -4,3 +4,4 @@ allow mediaserver audio_device:chr_file { ioctl open read write };
 allow mediaserver system_data_file:sock_file write;
 allow mediaserver cameraproxy_service:service_manager find;
 allow mediaserver cameraserver_service:service_manager add;
+allow mediaserver camera_data_file:dir search;
