@@ -68,6 +68,10 @@ $(call inherit-product, frameworks/native/build/phone-xxxhdpi-4096-hwui-memory.m
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# RenderScript HAL
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
