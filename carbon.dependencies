@@ -12,10 +12,10 @@
    "revision"   : "cr-5.1"
  },
  {
-   "remote"     : "lineage",
-   "repository" : "LineageOS/android_device_qcom_common",
+   "remote"     : "carbon",
+   "repository" : "CarbonROM/android_device_qcom_common",
    "target_path": "device/qcom/common",
-   "revision"   : "cm-14.1"
+   "revision"   : "cr-5.1"
  },
  {
    "remote"     : "lineage",
