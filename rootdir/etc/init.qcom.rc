@@ -101,20 +101,20 @@ on init
     chown system system /sys/devices/platform/kcal_ctrl.0/kcal_val
 
     # Touchscreen
-    chown root system /proc/touchpanel/double_swipe_enable
-    chmod 0660 /proc/touchpanel/double_swipe_enable
+    chown root system /proc/touchpanel/double_swipe
+    chmod 0660 /proc/touchpanel/double_swipe
     chown root system /proc/touchpanel/double_tap
     chmod 0660 /proc/touchpanel/double_tap
     chown root system /proc/touchpanel/down_swipe
     chmod 0660 /proc/touchpanel/down_swipe
-    chown root system /proc/touchpanel/letter_o_enable
-    chmod 0660 /proc/touchpanel/letter_o_enable
-    chown root system /proc/touchpanel/left_arrow_enable
-    chmod 0660 /proc/touchpanel/left_arrow_enable
-    chown root system /proc/touchpanel/down_arrow_enable
-    chmod 0660 /proc/touchpanel/down_arrow_enable
-    chown root system /proc/touchpanel/right_arrow_enable
-    chmod 0660 /proc/touchpanel/right_arrow_enable
+    chown root system /proc/touchpanel/draw_circle
+    chmod 0660 /proc/touchpanel/draw_circle
+    chown root system /proc/touchpanel/draw_left_v
+    chmod 0660 /proc/touchpanel/draw_left_v
+    chown root system /proc/touchpanel/draw_reversed_v
+    chmod 0660 /proc/touchpanel/draw_reversed_v
+    chown root system /proc/touchpanel/draw_right_v
+    chmod 0660 /proc/touchpanel/draw_right_v
     chown root system /proc/touchpanel/draw_v
     chmod 0660 /proc/touchpanel/draw_v
     chown root system /proc/touchpanel/left_swipe
