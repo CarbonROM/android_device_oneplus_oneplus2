@@ -362,9 +362,6 @@
 
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
-
     <string-array name="config_mobile_tcp_buffers">
         <item>lte:2097152,4194304,8388608,262144,524288,1048576</item>
         <item>lte_ca:2097152,4194304,8388608,262144,524288,1048576</item>
@@ -505,4 +502,39 @@
 
     <!-- Keypress Boost duration -->
     <integer name="fpunlockboost_duration">800</integer>
+
+   <!-- Gestures' key codes. If the gesture is not supported set it to 0. -->
+    <integer name="config_doubleTapKeyCode">183</integer>
+    <integer name="config_drawOKeyCode">59</integer>
+    <integer name="config_twoFingerSwipeKeyCode">60</integer>
+    <integer name="config_drawVKeyCode">61</integer>
+    <integer name="config_drawArrowLeftKeyCode">63</integer>
+    <integer name="config_drawArrowRightKeyCode">64</integer>
+    <integer name="config_drawInverseVKeyCode">62</integer>
+    <integer name="config_oneFingerSwipeLeftKeyCode">66</integer>
+    <integer name="config_oneFingerSwipeRightKeyCode">65</integer>
+    <integer name="config_drawMKeyCode">88</integer>
+    <integer name="config_drawWKeyCode">87</integer>
+    <integer name="config_oneFingerSwipeUpKeyCode">68</integer>
+    <integer name="config_oneFingerSwipeDownKeyCode">67</integer>
+
+    <!-- Default settings for gestures
+             0 - Disabled
+             1 - Wake device
+             2 - Toggle flashlight
+             3 - Toggle airplane mode
+             4 - Play/Pause music
+             5 - Next music
+             6 - Previous music
+             7 - Open camera
+             8 - Open dialer -->
+    <integer name="config_doubleTapDefault">1</integer>
+    <integer name="config_drawVDefault">2</integer>
+    <integer name="config_drawODefault">7</integer>
+    <integer name="config_drawArrowLeftDefault">6</integer>
+    <integer name="config_drawArrowRightDefault">5</integer>
+
+    <!-- Whether to intercept inputs on screen off--> 
+    <bool name="config_enableKeyHandler">true</bool>
+
 </resources>
