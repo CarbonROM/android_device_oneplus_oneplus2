@@ -59,6 +59,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+  libbt-vendor \
   android.hardware.bluetooth@1.0-impl
 
 # Boot animation
