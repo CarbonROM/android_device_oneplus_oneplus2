@@ -272,9 +272,7 @@ PRODUCT_BOOT_JARS += telephony-ext
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
-    sensors.msm8994 \
-    sensors.ssc.wrapper
+    android.hardware.sensors@1.0-impl
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:system/etc/sensors/hals.conf
