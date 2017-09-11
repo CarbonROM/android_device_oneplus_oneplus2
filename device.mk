@@ -346,6 +346,6 @@ PRODUCT_COPY_FILES += \
 
 # Vendor Interface Manifest
 PRODUCT_COPY_FILES += \
-    device/oneplus/oneplus2/manifest.xml:vendor/manifest.xml
+    device/oneplus/oneplus2/manifest.xml:system/vendor/manifest.xml
 
 
