@@ -20,8 +20,6 @@
 # definition file).
 #
 
-# Inherit from oppo-common
--include device/oppo/common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := OnePlus2,oneplus2
 
@@ -199,6 +197,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 59047394304
 BOARD_FLASH_BLOCK_SIZE := 262144
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Power
+TARGET_POWERHAL_VARIANT := qcom
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
