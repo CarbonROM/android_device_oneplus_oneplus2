@@ -401,23 +401,11 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
    </string-array>
 
-    <!-- Whether notify fingerprint client of successful cancelled authentication --> 
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
-
     <!-- Keep chosen default camera app pinned in memory for faster launching -->
     <bool name="config_pinnerCameraApp">true</bool>
 
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
-
-    <!-- Proximity check on screen on -->
-    <bool name="config_proximityCheckOnWake">true</bool>
-
-    <!-- Proximity check timeout -->
-    <integer name="config_proximityCheckTimeout">100</integer>
-
-    <!-- Proximity check on screen on default -->
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->

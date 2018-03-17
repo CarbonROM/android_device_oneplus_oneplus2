@@ -20,10 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus2 device
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit some common CarbonROM stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
 
-PRODUCT_NAME := aosip_oneplus2
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
+PRODUCT_NAME := carbon_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -39,5 +42,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus2-user 6.0.1 MMB29M 8 dev-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
+
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.carbon.maintainer="gtpitch"
 
 TARGET_VENDOR := oneplus
