@@ -72,9 +72,6 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option 
-    <bool name="config_intrusiveBatteryLed">true</bool> -->
-
     <!-- Button illumination 
     <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 
@@ -406,9 +403,5 @@
 
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
-
-    <!-- Do the battery/notification LEDs support pulsing?
-         Used to decide if we show pulse settings -->
-    <bool name="config_ledCanPulse">true</bool>
 
 </resources>
