@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher RJ Trujillo \u003ccertifiedblyndguy@gmail.com\u003e 1525489074 -0700\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_oneplus_oneplus2\nnonce 1525489091-05FD4D93EAF618EC8E70543EAF94CEAD493C3F33\n\n0000000000000000000000000000000000000000 d47f0a0631cabb6fde916e8c457b91872b19f135 refs/for/cr-6.1\n-----BEGIN PGP SIGNATURE-----\n\niQEcBAABAgAGBQJa7R2yAAoJEPmgJR/9oEk/nxcH/jNM2Yey3kPy1epW3y9IGpKv\nkobzngjcw4yoKZ2sqYREGjjXi1N5nC3TWFvHtKA/9jIQ4Jnrnb3lEdCWEkhSqQZF\nvZcdiybs6GsJ5GPTK2sveO2CoqJtdtJJRfu3LxA8pvgodnYCYrKF9aeZmEdyAZgm\ngDQCXB7ZItYITS09CTnHPTALSZ/yx2X4lRW1Ne7PNAREALnzOhGsAaIlf2P4+6pG\nAqKtXy9ChZG/+i9GfK85VquZHcSjAlgQuiptX1ldz/9eaM+DJhm7PTwcXugbYDTR\nPqkvscrtNAa7W4J66+f+OTDmO36SG5fkYxMaM515nN8NaOT5M3VPFUVmaOQQ194\u003d\n\u003dr764\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
